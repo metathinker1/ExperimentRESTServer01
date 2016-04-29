@@ -10,6 +10,8 @@ public class RestController {
     public RestController() {
         port(8031);
 
-        get("/", (req, res) -> "Spark Java 01");
+        get("/", (req, res) -> "REST Service 01");
+        
+
     }
 }
